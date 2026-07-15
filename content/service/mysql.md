@@ -65,5 +65,5 @@ source (sqlFile.sqlのアドレス);
 
 # テーブルをコピー
 ```
-CREATE TABLE [新しいテーブル名] SELECT * FROM 古いテーブル名;
+CREATE TABLE [新しいテーブル名] SELECT * FROM コピー元テーブル;
 ```
